@@ -11,6 +11,6 @@ To test locally duplicate .env.example, rename to .env and enter your credential
 Then open in terminal and run:
 
 ```sh
- composer require
+ composer install
  php artisan run serve
 ```
