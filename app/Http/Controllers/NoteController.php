@@ -30,6 +30,7 @@ class NoteController extends Controller
 
         return Note::create([
             'title' => 'Untitled Note',
+            'body' => 'Edit me...',
             'user_id' => auth()->user()->id,
             'folder_id' => $folderId
         ]);
